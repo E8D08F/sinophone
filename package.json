@@ -1,13 +1,13 @@
 {
   "name": "sinophone",
   "version": "0.0.1",
-  "description": "",
+  "description": "Add Tategaki support to EPUB",
   "main": "./dist/index.js",
   "scripts": {
     "build": "deno run --unstable --allow-read --allow-write --allow-env ./rollup.ts",
     "test": "npx sinophone -i ~/tmp/test/15K1.epub -o test.epub"
   },
-  "author": "Toto",
+  "author": "Toto <the@unpopular.me> (https://chunghwa.asia)",
   "license": "MIT",
   "bin": {
     "sinophone": "./dist/index.js"
