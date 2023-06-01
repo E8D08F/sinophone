@@ -1,6 +1,6 @@
 {
   "name": "sinophone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add Tategaki support to EPUB",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,9 +13,11 @@
     "sinophone": "./dist/index.js"
   },
   "devDependencies": {
-    "deno": "^0.1.1",
-    "@rollup/plugin-typescript": "^11.1.1",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "deno": "^0.1.1",
     "rollup-plugin-preserve-shebang": "^1.0.1"
   },
   "dependencies": {

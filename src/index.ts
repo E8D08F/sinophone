@@ -8,8 +8,8 @@ import { DOMParser, Element } from 'https://deno.land/x/deno_dom@v0.1.38/deno-do
 import { xmlHeader, doctypeToString, serialiseToString } from '../lib/serialise.ts'
 
 import { Tategaki } from 'tategaki'
-import TurndownService from 'turndown'
-import * as MarkdownIt from 'markdown-it'
+import TurndownService from 'npm:turndown'
+import MarkdownIt from 'npm:markdown-it'
 
 
 const argv = yargs(Deno.args).parse()
