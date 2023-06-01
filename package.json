@@ -1,0 +1,26 @@
+{
+  "name": "sinophone",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "deno run --unstable --allow-read --allow-write --allow-env ./rollup.ts",
+    "test": "npx sinophone -i ~/tmp/test/15K1.epub -o test.epub"
+  },
+  "author": "Toto",
+  "license": "MIT",
+  "bin": {
+    "sinophone": "./dist/index.js"
+  },
+  "devDependencies": {
+    "deno": "^0.1.1",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "tategaki": "^1.4.1",
+    "turndown": "^7.1.2"
+  }
+}
